@@ -1,2 +1,14 @@
-# Product-of-two-numbers.
-Created by Sukanya, C++ program to find the product of two numbers entered by the user.
+#include <iostream>
+using namespace std;
+
+
+int main()
+{
+    double num1, num2, product;
+    cout << "Enter two numbers: ";
+    cin >> num1 >> num2;
+    product = num1 * num2;
+    cout << "Pruduct = " << product;
+    
+    return 0;
+}
